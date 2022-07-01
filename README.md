@@ -1,2 +1,2 @@
 # CSharpCalculator
-Calculator made using C#
+Basic calculator made using C#
