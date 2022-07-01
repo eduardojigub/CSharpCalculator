@@ -16,6 +16,7 @@ namespace Calculator
             Console.WriteLine("2 - Subtraction");
             Console.WriteLine("3 - Division");
             Console.WriteLine("4 - Multiplication");
+            Console.WriteLine("5 - Leave Application");
 
             Console.WriteLine("----------------");
             Console.WriteLine("Choose an option:");
@@ -27,6 +28,7 @@ namespace Calculator
                 case 2: Subtraction(); break;
                 case 3: Division(); break;
                 case 4: Multiplication(); break;
+                case 5: System.Environment.Exit(0); break;
                 default: Menu(); break;
             }
         }
@@ -41,6 +43,8 @@ namespace Calculator
             Console.WriteLine("");
             float SumResult = firstValue + secondValue;
             Console.WriteLine($"The sum result is: {SumResult}");
+            Console.WriteLine("");
+            Console.WriteLine("Press enter to return");
             Console.ReadKey();
             Menu();
         }
