@@ -6,10 +6,20 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            // Sum();
-            // Subtraction();
-            // Division();
-            Multiplication();
+            Menu();
+        }
+        static void Menu()
+        {
+            Console.Clear();
+            Console.WriteLine("Which operation you choose?");
+            Console.WriteLine("1 - Sum");
+            Console.WriteLine("2 - Subtraction");
+            Console.WriteLine("3 - Division");
+            Console.WriteLine("4 - Multiplication");
+
+            Console.WriteLine("----------------");
+            Console.WriteLine("Choose an option:");
+            short response = short.Parse(Console.ReadLine());
         }
         static void Sum()
         {
