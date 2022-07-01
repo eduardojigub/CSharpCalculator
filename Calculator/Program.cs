@@ -14,7 +14,7 @@ namespace Calculator
 
             Console.WriteLine("");
             float SumResult = firstValue + secondValue;
-            Console.WriteLine("The sum result is: " + SumResult);
+            Console.WriteLine($"The sum result is: {SumResult}");
         }
     }
 }
