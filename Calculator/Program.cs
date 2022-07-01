@@ -59,6 +59,8 @@ namespace Calculator
             Console.WriteLine("");
             float SubtractionResult = firstValue - secondValue;
             Console.WriteLine($"The subtraction result is: {SubtractionResult}");
+            Console.WriteLine("");
+            Console.WriteLine("Press enter to return");
             Console.ReadKey();
             Menu();
         }
@@ -73,6 +75,8 @@ namespace Calculator
             Console.WriteLine("");
             float DivisionResult = firstValue / secondValue;
             Console.WriteLine($"The sum result is: {DivisionResult}");
+            Console.WriteLine("");
+            Console.WriteLine("Press enter to return");
             Console.ReadKey();
             Menu();
         }
@@ -87,6 +91,8 @@ namespace Calculator
             Console.WriteLine("");
             float MultiplicationResult = firstValue * secondValue;
             Console.WriteLine($"The sum result is: {MultiplicationResult}");
+            Console.WriteLine("");
+            Console.WriteLine("Press enter to return");
             Console.ReadKey();
             Menu();
         }
