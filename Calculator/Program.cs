@@ -20,6 +20,15 @@ namespace Calculator
             Console.WriteLine("----------------");
             Console.WriteLine("Choose an option:");
             short response = short.Parse(Console.ReadLine());
+
+            switch (response)
+            {
+                case 1: Sum(); break;
+                case 2: Subtraction(); break;
+                case 3: Division(); break;
+                case 4: Multiplication(); break;
+                default: Menu(); break;
+            }
         }
         static void Sum()
         {
